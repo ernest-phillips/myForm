@@ -1,0 +1,42 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:#338CFF ;
+}
+.logo{
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  padding: 30px;
+
+}
+.logo >img{
+  height: 35px;
+  margin: 0 auto;
+
+
+}
+.wrapper{
+  margin-left: auto;
+  margin-right: auto;
+
+  /*display: grid;
+  grid-template-columns: auto;
+  grid-row: 3fr 3fr;*/
+
+}
+.placeholder{
+
+}
+.first-form{
+  width: 400px;
+  background-color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 40px 0 40px;
+
+}
