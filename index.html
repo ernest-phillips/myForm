@@ -14,17 +14,18 @@
   <div class="wrapper">
 
     <form class="first-form" action="/signup/" method='post'>
-     <h1>SIGN UP</h1>
+     <h1 class="header">SIGN UP</h1>
      <fieldset>
-        <label for="email">Email</label><br>
+        <label for="email" class="label">Email</label><br>
        <input type="email" name="email">
-     </fieldset>
-     <fieldset>
-      <label for="password">Password</label><br>
+
+       <label for="password" class="label">Password</label><br>
       <input type="password" name="psw" id="psw">
      </fieldset>
-     <button type="signup" name="signup">SIGN UP</button>
+     <button type="signup" name="signup" class="signup">Sign up</button>
+      <p class="forgot"><a href="#">Forgot password?</a></p>
     </form>
+    <div class="login"><p>Already have an account? <span><a href="#">Log in</a></span></p></div>
   </div>
 </body>
 </html>

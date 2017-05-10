@@ -15,14 +15,21 @@ body{
 }
 .logo >img{
   height: 35px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 
+
+}
+.header{
+  text-align: center;
+  font-family:  Century Gothic, sans-serif;
+  font-weight: normal;
 
 }
 .wrapper{
   margin-left: auto;
   margin-right: auto;
-
+  padding: 0;
   /*display: grid;
   grid-template-columns: auto;
   grid-row: 3fr 3fr;*/
@@ -34,9 +41,62 @@ body{
 .first-form{
   width: 400px;
   background-color: white;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
   padding: 0 40px 0 40px;
 
+}
+
+.label{
+  text-align: left;
+  margin-bottom: 15px;
+}
+fieldset{
+  border: none;
+}
+.first-form input{
+  width: 318px;
+  border: 2px solid gray;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.signup{
+  width: 320px;
+  color: white;
+  background-color: #5DF02D;
+  font-family: helvetica;
+  font-size: 24px;
+  margin-bottom: 5px;
+  height: 55px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.forgot>p{
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: arial;
+  font-weight: 100;
+  color: gray;
+}
+.forgot a:link{
+  color: gray;
+}
+.forgot a:hover{
+  color: green;
+}
+.login p{
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: arial;
+  text-align: center;
+}
+
+.login a:link{
+  color: white;
+}
+.login a:hover{
+  color: green;
 }
